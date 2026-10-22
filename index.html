@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seydina Mouhamed Touré | Génie Informatique & Data</title>
+    <meta name="description" content="Portfolio de Seydina Mouhamed Touré, Étudiant en Licence Génie Informatique spécialisé en Bases de Données, Data BI, Développement Web et Administration Système.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Glow Effects -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-grid"></div>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#accueil" class="logo">
+                <span class="logo-bracket">&lt;</span>SMT<span class="logo-slash">/</span><span class="logo-bracket">&gt;</span>
+            </a>
+            <nav class="nav-links" id="nav-links">
+                <a href="#accueil" class="nav-link active">Accueil</a>
+                <a href="#apropos" class="nav-link">À propos</a>
+                <a href="#competences" class="nav-link">Compétences</a>
+                <a href="#projets" class="nav-link">Projets</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="https://github.com/seydimt" target="_blank" rel="noopener noreferrer" class="btn-icon" aria-label="GitHub">
+                    <i data-lucide="github"></i>
+                </a>
+                <a href="#contact" class="btn btn-primary btn-sm">Me contacter</a>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="accueil" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <div class="badge">
+                        <span class="badge-dot"></span>
+                        Disponible pour stages & opportunités
+                    </div>
+                    <h1 class="hero-title">
+                        Bonjour, je suis <br>
+                        <span class="gradient-text">Seydina Mouhamed Touré</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Étudiant en <strong>Licence Génie Informatique</strong> — Passionné par l'ingénierie des données, l'administration de bases de données, le développement web et les systèmes & réseaux.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projets" class="btn btn-primary">
+                            <span>Voir mes projets</span>
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                        <a href="https://github.com/seydimt" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                            <i data-lucide="github"></i>
+                            <span>Mon GitHub</span>
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">3+</span>
+                            <span class="stat-label">Pôles d'expertise<br>(Data, Dev, SysAdmin)</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-num">SQL & BI</span>
+                            <span class="stat-label">Architecture &<br>Analyse de données</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-item">
+                            <span class="stat-num">Full-Stack</span>
+                            <span class="stat-label">Laravel, Python<br>& Technologies Web</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Terminal Interactive Card -->
+                <div class="hero-visual reveal">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <span class="terminal-title">seydina@portfolio:~</span>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="code-line">
+                                <span class="prompt">$</span> <span class="cmd">cat</span> profil.json
+                            </div>
+                            <pre class="code-output">{
+  <span class="key">"nom"</span>: <span class="str">"Seydina Mouhamed Touré"</span>,
+  <span class="key">"formation"</span>: <span class="str">"Licence Génie Informatique"</span>,
+  <span class="key">"specialites"</span>: [
+    <span class="str">"Bases de données & Business Intelligence"</span>,
+    <span class="str">"Développement Web & Python"</span>,
+    <span class="str">"Systèmes, Réseaux & Sécurité"</span>
+  ],
+  <span class="key">"outils_favoris"</span>: [
+    <span class="str">"SQL Server"</span>, <span class="str">"MySQL"</span>, <span class="str">"Power BI"</span>,
+    <span class="str">"Talend"</span>, <span class="str">"Laravel"</span>, <span class="str">"Linux"</span>
+  ],
+  <span class="key">"contact"</span>: <span class="str">"seydinamouhamedtoure06@gmail.com"</span>
+}</pre>
+                            <div class="code-line">
+                                <span class="prompt">$</span> <span class="cmd">./status.sh</span>
+                            </div>
+                            <div class="code-success">
+                                ✓ Prêt à relever de nouveaux défis techniques ! <span class="cursor">_</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="apropos" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Présentation</span>
+                    <h2 class="section-title">À propos de moi</h2>
+                </div>
+                <div class="about-grid reveal">
+                    <div class="about-text">
+                        <p>
+                            Étudiant en <strong>Licence Génie Informatique</strong>, je développe une approche polyvalente et rigoureuse des technologies de l'information. Mon parcours combine la conception et l'administration de <strong>bases de données relationnelles</strong>, l'<strong>intégration et la visualisation de données (ETL / BI)</strong>, ainsi que le <strong>développement d'applications web</strong> et la gestion d'infrastructures systèmes.
+                        </p>
+                        <p>
+                            Que ce soit pour modéliser des bases de données complexes sous <strong>SQL Server</strong> ou <strong>MySQL</strong>, construire des pipelines de données avec <strong>Talend</strong> et des tableaux de bord décisionnels sous <strong>Power BI</strong>, ou encore développer des solutions avec <strong>Laravel</strong> et <strong>Python</strong>, j'accorde une importance particulière à la performance, la fiabilité et la clarté de l'architecture.
+                        </p>
+                        <div class="about-highlights">
+                            <div class="highlight-card">
+                                <i data-lucide="database" class="highlight-icon"></i>
+                                <div>
+                                    <h4>Ingénierie Data & BI</h4>
+                                    <p>Modélisation SQL, ETL Talend et reporting analytique Power BI.</p>
+                                </div>
+                            </div>
+                            <div class="highlight-card">
+                                <i data-lucide="code-2" class="highlight-icon"></i>
+                                <div>
+                                    <h4>Développement</h4>
+                                    <p>Applications web modernes (Laravel, HTML/CSS) et scripts data Python.</p>
+                                </div>
+                            </div>
+                            <div class="highlight-card">
+                                <i data-lucide="server" class="highlight-icon"></i>
+                                <div>
+                                    <h4>Systèmes & Réseaux</h4>
+                                    <p>Administration Linux & Windows Server, sécurité et maintenance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="competences" class="section section-alt">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Expertise Technique</span>
+                    <h2 class="section-title">Mes Compétences</h2>
+                    <p class="section-desc">Un socle technique complet couvrant la donnée, le développement logiciel et l'administration système.</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Category 1: Data & DB -->
+                    <div class="skill-card reveal">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-box icon-blue">
+                                <i data-lucide="bar-chart-3"></i>
+                            </div>
+                            <div>
+                                <h3>Bases de données & Data</h3>
+                                <span class="skill-subtitle">Architecture, ETL & Business Intelligence</span>
+                            </div>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-badge"><i data-lucide="database"></i> SQL Server</span>
+                            <span class="skill-badge"><i data-lucide="database"></i> MySQL</span>
+                            <span class="skill-badge"><i data-lucide="pie-chart"></i> Power BI</span>
+                            <span class="skill-badge"><i data-lucide="git-merge"></i> Talend (ETL)</span>
+                            <span class="skill-badge"><i data-lucide="table"></i> Excel Avancé</span>
+                            <span class="skill-badge"><i data-lucide="file-code"></i> Requêtes complexes & Procédures</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Dev -->
+                    <div class="skill-card reveal">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-box icon-purple">
+                                <i data-lucide="terminal-square"></i>
+                            </div>
+                            <div>
+                                <h3>Développement & Data Science</h3>
+                                <span class="skill-subtitle">Applications Web & Analyse Python</span>
+                            </div>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-badge"><i data-lucide="layers"></i> Laravel (PHP)</span>
+                            <span class="skill-badge"><i data-lucide="code"></i> Python</span>
+                            <span class="skill-badge"><i data-lucide="cpu"></i> Pandas & NumPy</span>
+                            <span class="skill-badge"><i data-lucide="globe"></i> HTML5 / CSS3</span>
+                            <span class="skill-badge"><i data-lucide="layout"></i> Programmation Web</span>
+                            <span class="skill-badge"><i data-lucide="git-branch"></i> Git / GitHub</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Systems & Network -->
+                    <div class="skill-card reveal">
+                        <div class="skill-card-header">
+                            <div class="skill-icon-box icon-emerald">
+                                <i data-lucide="shield-check"></i>
+                            </div>
+                            <div>
+                                <h3>Systèmes, Réseaux & Sécurité</h3>
+                                <span class="skill-subtitle">Infrastructure, OS & Maintenance</span>
+                            </div>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-badge"><i data-lucide="terminal"></i> Administration Linux</span>
+                            <span class="skill-badge"><i data-lucide="monitor"></i> Windows & Windows Server</span>
+                            <span class="skill-badge"><i data-lucide="server"></i> Administration Serveur</span>
+                            <span class="skill-badge"><i data-lucide="wrench"></i> Maintenance Informatique</span>
+                            <span class="skill-badge"><i data-lucide="network"></i> Réseaux & Sécurité</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projets" class="section">
+            <div class="container">
+                <div class="section-header reveal">
+                    <span class="section-tag">Réalisations</span>
+                    <h2 class="section-title">Projets Mis en Avant</h2>
+                    <p class="section-desc">Sélection de projets académiques et techniques illustrant mes compétences en ingénierie des données et bases de données.</p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Analyse des ventes -->
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <div class="project-icon">
+                                <i data-lucide="line-chart"></i>
+                            </div>
+                            <span class="project-category">Data & Business Intelligence</span>
+                        </div>
+                        <h3 class="project-title">Analyse des Ventes & Dashboard Décisionnel</h3>
+                        <p class="project-description">
+                            Conception d'une chaîne décisionnelle complète : extraction, nettoyage et intégration de données multi-sources via <strong>Talend</strong>, suivie de la création d'un tableau de bord interactif sous <strong>Power BI</strong> permettant de suivre les performances commerciales par région et par produit.
+                        </p>
+                        <ul class="project-features">
+                            <li><i data-lucide="check-circle-2"></i> Intégration ETL multi-sources avec Talend</li>
+                            <li><i data-lucide="check-circle-2"></i> Modélisation des données & indicateurs KPI</li>
+                            <li><i data-lucide="check-circle-2"></i> Visualisation dynamique par région et produit</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Talend</span>
+                            <span>Power BI</span>
+                            <span>ETL</span>
+                            <span>Data Analytics</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Gestion de scolarité -->
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <div class="project-icon">
+                                <i data-lucide="graduation-cap"></i>
+                            </div>
+                            <span class="project-category">Base de Données Relationnelle</span>
+                        </div>
+                        <h3 class="project-title">Système de Gestion de Scolarité</h3>
+                        <p class="project-description">
+                            Modélisation et implémentation d'une base de données complète sous <strong>MySQL</strong> pour gérer le cycle académique : dossiers étudiants, catalogue de cours, inscriptions, évaluations et calcul des notes.
+                        </p>
+                        <ul class="project-features">
+                            <li><i data-lucide="check-circle-2"></i> Schéma relationnel normalisé (étudiants, cours, notes)</li>
+                            <li><i data-lucide="check-circle-2"></i> Requêtes SQL complexes (jointures, agrégations, sous-requêtes)</li>
+                            <li><i data-lucide="check-circle-2"></i> Intégrité référentielle et optimisation des recherches</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>MySQL</span>
+                            <span>SQL Avancé</span>
+                            <span>Modélisation BDD</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Gestion de banque -->
+                    <article class="project-card reveal">
+                        <div class="project-top">
+                            <div class="project-icon">
+                                <i data-lucide="landmark"></i>
+                            </div>
+                            <span class="project-category">Architecture SGBD & Transactions</span>
+                        </div>
+                        <h3 class="project-title">Système de Gestion Bancaire</h3>
+                        <p class="project-description">
+                            Architecture et administration d'une base de données bancaire sous <strong>SQL Server</strong> assurant la gestion sécurisée des clients, des comptes bancaires et de l'historique des transactions financières.
+                        </p>
+                        <ul class="project-features">
+                            <li><i data-lucide="check-circle-2"></i> Gestion des comptes, clients et opérations bancaires</li>
+                            <li><i data-lucide="check-circle-2"></i> Traçabilité et cohérence des transactions sous SQL Server</li>
+                            <li><i data-lucide="check-circle-2"></i> Sécurité des accès et requêtes d'audit financier</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>SQL Server</span>
+                            <span>T-SQL</span>
+                            <span>Transactions</span>
+                            <span>Sécurité BDD</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <div class="contact-box reveal">
+                    <div class="contact-info">
+                        <span class="section-tag">Contact</span>
+                        <h2 class="section-title">Travaillons ensemble</h2>
+                        <p class="contact-desc">
+                            Vous recherchez un profil motivé en <strong>Génie Informatique, Data / BI, Bases de données ou Développement</strong> ? N'hésitez pas à me contacter directement par email, téléphone ou via GitHub.
+                        </p>
+
+                        <div class="contact-cards">
+                            <a href="mailto:seydinamouhamedtoure06@gmail.com" class="contact-item">
+                                <div class="contact-icon">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <div>
+                                    <span class="contact-label">Email</span>
+                                    <span class="contact-value">seydinamouhamedtoure06@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <a href="tel:+221775532289" class="contact-item">
+                                <div class="contact-icon">
+                                    <i data-lucide="phone"></i>
+                                </div>
+                                <div>
+                                    <span class="contact-label">Téléphone / WhatsApp</span>
+                                    <span class="contact-value">+221 77 553 22 89</span>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/seydimt" target="_blank" rel="noopener noreferrer" class="contact-item">
+                                <div class="contact-icon">
+                                    <i data-lucide="github"></i>
+                                </div>
+                                <div>
+                                    <span class="contact-label">GitHub</span>
+                                    <span class="contact-value">github.com/seydimt</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo-bracket">&lt;</span>SMT<span class="logo-slash">/</span><span class="logo-bracket">&gt;</span>
+                <p>Seydina Mouhamed Touré — Étudiant en Licence Génie Informatique</p>
+            </div>
+            <div class="footer-links">
+                <a href="mailto:seydinamouhamedtoure06@gmail.com" aria-label="Email"><i data-lucide="mail"></i></a>
+                <a href="tel:+221775532289" aria-label="Téléphone"><i data-lucide="phone"></i></a>
+                <a href="https://github.com/seydimt" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; <span id="year"></span> Seydina Mouhamed Touré. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
